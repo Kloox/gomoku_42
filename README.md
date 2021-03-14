@@ -3,7 +3,7 @@
 
 <h2>Description</h2>
 The goal of this project is to make an AI capable of beating human players at Gomoku with a 500ms constraint to play its turn.
-This project IA using an alpha beta pruning algo with a homemade heuristic.
+The IA of this project uses an alpha beta pruning algorythm with a homemade heuristic.
 The GUI is made with a golang library named Pixel (based on OpenGL).
 <br/>
 
@@ -27,16 +27,16 @@ You can use the precompiled executable in folder `gomoku-W64-1.0.0`.
 
 or
 
-Compiled the project on WSL and using a tool like Xlaunch to be able to launch the project.
+Compile the project on WSL and use a tool like Xlaunch to be able to launch the project.
 
 or 
 
-Compiled the project on Mingw-w64 with:
+Compile the project on Mingw-w64 with:
 
 `make goget`<br/>
 `make windows`<br/>
 
-(You still nedd install the proper dependencies on Mingw-w64).<br/>
+(You still need to install the proper dependencies on Mingw-w64).<br/>
 
 You can now run gomoku. :)
 
@@ -47,13 +47,13 @@ You can now run gomoku. :)
 `-r or --routine :` Disable go routine (Debug purpose).<br/>
 `-ia:` An IA plays for you (Debug purpose)<br/>
 
-Note: The default depth and width is a compromise between performance and efficiency. High values can lead to very long computation time.<br/>
+Note: Default depth and width are a compromise between performance and efficiency. High values can lead to very a long computation time.<br/>
 
 <h2>Rules:</h2><br />
 
-- To win you must do a 5-in-row.
+- To win you must put 5 stones in-a-row.
 
-- You can capture a pair of your ennemy stones, 5 capture lead to a win. If your 5-in-row is threatened by a capture, you won't win. (Can be disabled on the main menu)<br/>
+- You can capture a pair of your ennemy stones. 5 captures lead to a win. If your 5-in-a-row is threatened with capture, you won't win. (Can be disabled on the main menu)<br/>
 
 - A double three is not allowed. (Can be disabled on the main menu)<br/>
 
@@ -63,7 +63,7 @@ Note: The default depth and width is a compromise between performance and effici
 
 <h2>Controls</h2><br />
 
-The game can completely be play with the mouse, but here are some shortcuts:<br/>
+The game can completely be played with the mouse, but here are some shortcuts:<br/>
 `CTRL + Z`: Undo<br/>
 `CTRL + R`: Reset game<br/>
 `CTRL + H`: Gives you a hint<br/>
