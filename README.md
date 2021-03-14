@@ -57,6 +57,8 @@ Note: The default depth and width is a compromise between performance and effici
 
 - A double three is not allowed. (Can be disabled on the main menu)<br/>
 
+- You can choose a starting condition on the main menu.<br/>
+
 - Detailed rules in the subject: [here](./en.subject.pdf)<br/>
 
 <h2>Controls</h2><br />
